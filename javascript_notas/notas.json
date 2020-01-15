@@ -1,0 +1,62 @@
+[
+	{
+		"Id": 1,
+		"codigo": "1020",
+		"nombre": "Luis Fernando Prieto",
+		"nota": "4.3"		
+	},
+	{
+		"Id": 2,
+		"codigo": "1021",
+		"nombre": "Juan Carlos Vasquez",
+		"nota": "4.2"		
+    },
+    {
+		"Id": 3,
+		"codigo": "1022",
+		"nombre": "Ivan andres Diaz",
+		"nota": "3.7"		
+    },
+    {
+		"Id": 4,
+		"codigo": "1023",
+		"nombre": "Alba Yiseth Corredor",
+		"nota": "3.4"		
+    },
+    {
+		"Id": 5,
+		"codigo": "1024",
+		"nombre": "Lina Maria Cruz",
+		"nota": "3.8"		
+    },
+    {
+		"Id": 6,
+		"codigo": "1025",
+		"nombre": "Luis Antonio Santamaria",
+		"nota": "3.5"		
+    },
+    {
+		"Id": 7,
+		"codigo": "1026",
+		"nombre": "Cindy Paola Ruiz",
+		"nota": "2.6"		
+    },
+    {
+		"Id": 8,
+		"codigo": "1027",
+		"nombre": "Miguel Angel Molina",
+		"nota": "4.4"		
+    },
+    {
+		"Id": 9,
+		"codigo": "1028",
+		"nombre": "Hector Javier Salamanca",
+		"nota": "2.6"		
+    },
+    {
+		"Id": 10,
+		"codigo": "1029",
+		"nombre": "Luis Alfonso Paez",
+		"nota": "3.1"		
+	}
+]

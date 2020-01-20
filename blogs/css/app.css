@@ -1,8 +1,24 @@
+.logo_nav {
+  background: url(../img/logo-music.png) no-repeat scroll center left;
+  background-color: #f9f9ff;
+  background-size: contain;
+  
+}
+.row_logo {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 20px;
+  padding: 10px;
+
+}
 
 /* Inicio Estilos del blog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
-
+/* 
 .blog_texto_izquierdo {
     margin-bottom: 40px;
   } 
@@ -98,7 +114,7 @@
   
   .row.m0.post_categoria_item {
     margin-bottom: 40px;
-  }
+  } */
 /* Fin Estilos del blog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 

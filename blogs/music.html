@@ -3,6 +3,7 @@
 
 <head>
   <title>Blog Bootstrap</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Bootstrap -->
   <link rel="stylesheet" href="css/app.css" />
@@ -10,50 +11,60 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+
+
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/76f0eab5b7.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/76f0eab5b7.js" crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
   <!-- Container del logo y redes sociales    -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-self-center">
-        <a href="#"><img src="img/logo-music.png" class="img-fluid" alt="Responsive image" /></a>
+      <div
+        class="col-sm-12 col-md-6 col-lg-6 col-xl-6 align-self-center text-sm-center text-md-left text-lg-left text-xl-left">
+        <a href="#"><img src="img/logo-music.png" class="img-fluid p-2 ml-md-4" alt="Responsive image" /></a>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-self-center ml-auto">
-        <span><a><i class="fab fa-facebook"></i></a></span>
-        <span><a><i class="fab fa-twitter"></i></a></span>
-        <span><a><i class="fab fa-instagramx"></i></a></span>
-        <span><a><i class="fab fa-linkedin-in"></i></a></span>
-        <span><a><i class="fab fa-youtube"></i></a></span>
-        <span><a><i class="fab fa-github"></i></a></span>
-        <span><a><i class="far fa-envelope"></i></a></span>
-        <span><a><i class="fab fa-whatsapp"></i></a></span>
+      <div
+        class="col-sm-12 col-md-6 col-lg-6 col-xl-6 align-self-end text-sm-center text-md-right text-lg-right text-xl-right">
+        <div class="container-fluid p-2">
+          <span><a href="https://www.facebook.com/donfernandoprieto"><i
+                class="fa fa-facebook-square fa-lg"></i></a></span>
+          <span><a href="https://twitter.com/darkunchain"><i class="fa fa-twitter-square fa-lg"></i></a></span>
+          <span><a href="https://www.instagram.com/darkunchain"><i class="fa fa-instagram fa-lg"></i></a href=""></span>
+          <span><a href="https://www.linkedin.com/in/luis-fernando-prieto-jimenez-45954932/"><i
+                class="fa fa-linkedin-in fa-lg"></i></a href=""></span>
+          <span><a href="https://www.youtube.com/channel/UCRWTkf0x8-ybVV1IDfz-PwA?view_as=subscriber"><i
+                class="fa fa-youtube fa-lg"></i></a href=""></span>
+          <span><a href="https://github.com/darkunchain"><i class="fa fa-github fa-lg"></i></a href=""></span>
+          <span><a href="luisfer74081@gmail.com"><i class="fa fa-envelope fa-lg"></i></a href=""></span>
+          <span><a href="3175027179"><i class="fa fa-whatsapp fa-lg"></i></a href=""></span>
+        </div>
       </div>
     </div>
   </div>
 
 
   <!-- navigation bar mobile-->
-  <nav class="navbar navbar-expand-md navbar-light bg-info">
-    <div class="container">
+  <div class="container-fluid bg-info sticky-top mb-4">
+    <nav class="navbar navbar-expand-md navbar-dark bg-info container">
       <a href="#" class="navbar-brand">
-        Music
+        <img src="img/music-icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> Music
       </a>
-      <button class="btn navbar-toggler" data-toggle="collapse" data-target="#desplegable">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#desplegable">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" tabindex="-1" id="desplegable">
+      <div class="collapse navbar-collapse" id="desplegable">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Artistas</a></li>
@@ -63,73 +74,347 @@
           <li class="nav-item"><a class="nav-link" href="#">Acordes</a></li>
         </ul>
       </div>
+    </nav>
+  </div>
+
+  <!-- %%%%%%%% Titulo y barra de busqueda %%%%%%%% -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-9 col-lg-9 order-sm-1 order-md-2 order-lg-2 order-xl-2 text-white bg-dark mb-4">
+        <h3 class="text-center"> El Blog de musica de Luis Fernando Prieto</h3>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 order-sm-1 order-md-2 order-lg-2 order-xl-2 text-center mb-4">
+        <div class="container-fluid order-md-2">
+          <form class="form-inline active-purple-4">
+            <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Busqueda"
+              aria-label="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </form>
+        </div>
+      </div>
     </div>
-  </nav>
+
+  </div>
 
 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-9 col-lg-9">
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Articulo 1   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-  <div class="row">
-    <div class="col-sm-10">
-      <div class="container">
-        <div class="row">
-          <div class="blog_texto_izquierdo">
-            <div class="col-sm-5">
-              <div class="img">
-                <img class="img-fluid" src="img/tape.jpg" alt="" />
+        <div class="row mb-4">
+          <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 order-sm-2 order-md-1 order-lg-1 order-xl-1">
+            <div class="texto_blog">
+              <div class="texto_blog_int">
+                <a href="http://pompiliooo.blogspot.com/2011/04/la-musica-una-extension-de-la.html">
+                  <h4 class="tituloarticulo">La música, una extensión de la inteligencia para los niños</h4>
+                </a>
+                <div class="categoria">
+
+                  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    Enero 01, 2020</a><br>
+                  <a class="badge badge-info" href="#">Niños</a>
+                  <a class="badge badge-dark" href="#">inteligencia</a>
+                </div>
+                <p>
+                  Se le atribuye a Platón la frase de que “la música es para el alma lo que la gimnasia es para el
+                  cuerpo”. Así pues la música tiene la facultad, como ningún otro arte, de llegar de forma más directa
+                  al corazón. Al final, y esto sucede con mayor frecuencia con la música clásica, las melodías pueden
+                  dar nombre a lo innombrable y transmitir lo que hasta entonces se creía desconocido.
+                </p>
+                <p>
+                  Siendo la música un placer estético, es bien sabido que puede causar efectos en el bienestar físico,
+                  mental y espiritual. Hoy los psicoterapeutas le dan la razón a los griegos, al afirmar que la música
+                  aliviana casi cualquier tipo de padecimiento o dolor.
+                </p>
+                <p>
+                  Un estudio publicado en la revista científica British Journal of Ophthalmology, asegura que los
+                  niños
+                  que escuchan ciertas melodías de Mozart potencializan la creatividad, la inteligencia emocional y el
+                  desarrollo del pensamiento. La explicación parte del hecho de que estas melodías tienen la capacidad
+                  de abrir nuevas vías neurológicas que resultan en un mejoramiento de la capacidad intelectual.
+                  Aparentemente también tienen, y en especial en los adultos, la capacidad de evocar sentimientos y
+                  estados de ánimo que pueden ser de gran ayuda para controlar un dolor o un temor, e incluso la
+                  ansiedad que le acompañan.
+                </p>
+                <p>
+                  Hay estudios que van más allá, asegurando que es de gran beneficio que una madre escuche música en
+                  el
+                  periodo de gestación, pues es en este periodo que el feto está desarrollando el oído, activando su
+                  sistema neuronal. Más adelante, con rondas infantiles, cuando el niño tiene sus primeros años, se
+                  recomienda realizar actividades lúdicomusicales para estimular su capacidad de escucha, atención y
+                  concentración.
+                </p>
+                <a class="badge badge-danger mb-sm-4"
+                  href="http://pompiliooo.blogspot.com/2011/04/la-musica-una-extension-de-la.html">Read More</a>
               </div>
             </div>
-            <div class="col-sm-5">
-              <div class="texto_blog">
-                <div class="texto_blog_int">
-                  <div class="categoria">
-                    <a class="categoria_btn" href="#">Gadgets</a>
-                    <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
-                      Enero 01, 2020</a>
-                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>
-                      05</a>
-                  </div>
-                  <a href="single-blog.html">
-                    <h4>Nest Protect 2nd Gen Smoke CO Alarm</h4>
-                  </a>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incidid unt ut labore et
-                    dolore magna aliqua.
-                  </p>
-                  <a class="blog_btn" href="#">Read More</a>
+          </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 order-sm-1 order-md-2 order-lg-2 order-xl-2">
+            <img class="img-fluid" src="img/guitar1.jpg" alt="" />
+          </div>
+        </div>
+        <!-- %%%%%%%%  Comentario %%%%%%%% -->
+        <div class="row mb-4 container-fluid">
+          <div class="col-12 bg-warning p-1 mb-2">
+            <a class="badge badge-primary ml-4" href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>
+              10</a><span class="ml-4 font-weight-bold"> Comentarios </span>
+          </div>
+          <div class="col-12 p-1 mb-2">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/1.png" alt="Avatar" class="avatar"></span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Articulo 2   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        <div class="row mb-4">
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <img class="img-fluid" src="img/saxo.jpg" alt="" />
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+            <div class="texto_blog">
+              <div class="texto_blog_int">
+                <a href="https://faros.hsjdbcn.org/es/articulo/poder-musica-desarrollo-emocional-cognitivo-nino">
+                  <h4 class="tituloarticulo">El poder de la música en el desarrollo emocional y cognitivo del niño</h4>
+                </a>
+                <div class="categoria">
+
+                  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    Enero 08, 2020</a><br>
+                  <a class="badge badge-info" href="#">Desarrollo emocional</a>
+                  <a class="badge badge-dark" href="#">Desarrollo cognitivo</a>
                 </div>
+                <p>
+                  El oído es un sentido que se desarrolla rápidamente, cuando el niño aún se encuentra en el útero
+                  materno. En el quinto mes de embarazo, el oído del bebé, que estructuralmente es comparable al de un
+                  adulto, ya está inmerso en un mundo sonoro formado por los sonidos del latido del corazón de la madre,
+                  movimientos intrauterinos, voces, música, etc.
+                </p>
+
+                <a class="badge badge-danger mb-sm-4"
+                  href="https://faros.hsjdbcn.org/es/articulo/poder-musica-desarrollo-emocional-cognitivo-nino">Read
+                  More</a>
               </div>
             </div>
           </div>
         </div>
+        <!-- %%%%%%%%  Comentario %%%%%%%% -->
+        <div class="row mb-4 container-fluid">
+          <div class="col-12 bg-warning p-1 mb-2">
+            <a class="badge badge-primary ml-4" href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>
+              05</a><span class="ml-4 font-weight-bold"> Comentarios </span>
+          </div>
+          <div class="col-12 p-1 mb-2">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/2.png" alt="Avatar" class="avatar"></span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Articulo 3   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+        <div class="row mb-4">
+
+          <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 order-sm-2 order-md-1 order-lg-1 order-xl-1">
+            <div class="texto_blog">
+              <div class="texto_blog_int">
+                <a href="https://www.growbarato.net/blog/la-musica-afecta-crecimiento-las-plantas/">
+                  <h4 class="tituloarticulo">La música afecta en el crecimiento de las plantas</h4>
+                </a>
+                <div class="categoria">
+
+                  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    Enero 12, 2020</a><br>
+                  <a class="badge badge-info" href="#">plantas</a>
+                  <a class="badge badge-dark" href="#">efectos de la música</a>
+                </div>
+                <p>
+                  La música afecta en el crecimiento de las plantas, eso ya se sabía, o por lo menos la leyenda de que
+                  si le cantas a las plantas o le pones música clásica crecen mejor, eso lo hemos oído más veces, y como
+                  cada leyenda, tiene un fondo de verdad. En este caso, la leyenda, tiene un nombre, que es el «efecto
+                  Mozart«, este nombre viene desde una universidad de California, que en el 1995 comprobó que después de
+                  haber escuchado Mozart aumentó los resultados de sus pruebas
+                </p>
+
+                <a class="badge badge-danger mb-sm-4"
+                  href="https://www.growbarato.net/blog/la-musica-afecta-crecimiento-las-plantas/">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 order-sm-1 order-md-2 order-lg-2 order-xl-2">
+            <img class="img-fluid" src="img/guitar.jpg" alt="" />
+          </div>
+        </div>
+        <!-- %%%%%%%%  Comentario %%%%%%%% -->
+        <div class="row mb-5 container-fluid">
+          <div class="col-12 bg-warning p-1 mb-2">
+            <a class="badge badge-primary ml-4" href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>
+              04</a><span class="ml-4 font-weight-bold"> Comentarios </span>
+          </div>
+          <div class="col-12 p-1 mb-2">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/3.png" alt="Avatar" class="avatar"></span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Articulo 4   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+        <div class="row mb-4">
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <img class="img-fluid" src="img/band.jpg" alt="" />
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+            <div class="texto_blog">
+              <div class="texto_blog_int">
+                <a href="https://www.guiainfantil.com/servicios/musica/estimulos.htm">
+                  <h4 class="tituloarticulo">Estímulos musicales en la infancia</h4>
+                </a>
+                <div class="categoria">
+
+                  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    Enero 16, 2020</a><br>
+                  <a class="badge badge-info" href="#">Niños</a>
+                  <a class="badge badge-dark" href="#">inteligencia</a>
+                </div>
+                <p>
+                  La iniciación musical empieza en la propia casa del niño. Los padres pueden introducirle en los
+                  placeres del ritmo y los sonidos. A los bebés y los niños en sus primeros pasos les gusta mucho bailar
+                  y dar palmas. Además, los bebés se serenan si se les canta o si les tararean canciones con suavidad
+                </p>
+
+                <a class="badge badge-danger mb-sm-4"
+                  href="https://www.guiainfantil.com/servicios/musica/estimulos.htm">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- %%%%%%%%  Comentario %%%%%%%% -->
+        <div class="row mb-5 container-fluid">
+          <div class="col-12 bg-warning p-1 mb-2">
+            <a class="badge badge-primary ml-4" href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>
+              03</a><span class="ml-4 font-weight-bold"> Comentarios </span>
+          </div>
+          <div class="col-12 p-1 mb-2">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/4.png" alt="Avatar" class="avatar"></span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Articulo 5   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+        <div class="row mb-4">
+
+          <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 order-sm-2 order-md-1 order-lg-1 order-xl-1">
+            <div class="texto_blog">
+              <div class="texto_blog_int">
+                <a href="https://cuidateplus.marca.com/bienestar/2018/01/23/riesgos-escuchar-musica-alta-153862.html">
+                  <h4 class="tituloarticulo">Riesgos de escuchar la música alta</h4>
+                </a>
+                <div class="categoria">
+
+                  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>
+                    Enero 20, 2020</a><br>
+                  <a class="badge badge-info" href="#">Música alta</a>
+                  <a class="badge badge-dark" href="#">afección de oido</a>
+                </div>
+                <p>
+                  Dentro del oído tenemos unas células llamadas pilosas que juntas forman el nervio auditivo. Estas
+                  recogen las vibraciones que producen los sonidos y transmitir señales eléctricas al cerebro, que se
+                  encarga de analizarlas e identificar el tipo de sonido que estamos escuchando. El problema viene
+                  cuando debido a la exposición a un ruido fuerte el cerebro no es capaz de identificar ese sonido.
+                </p>
+
+                <a class="badge badge-danger mb-sm-4"
+                  href="https://cuidateplus.marca.com/bienestar/2018/01/23/riesgos-escuchar-musica-alta-153862.html">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 order-sm-1 order-md-2 order-lg-2 order-xl-2">
+            <img class="img-fluid" src="img/tape.jpg" alt="" />
+          </div>
+        </div>
+        <!-- %%%%%%%%  Comentario %%%%%%%% -->
+        <div class="row mb-5 container-fluid">
+          <div class="col-12 bg-warning p-1 mb-2">
+            <a class="badge badge-primary ml-4" href="#"><i class="fa fa-comments-o" aria-hidden="true"></i>
+              02</a><span class="ml-4 font-weight-bold"> Comentarios </span>
+          </div>
+          <div class="col-12 p-1 mb-2">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><img src="img/5.png" alt="Avatar" class="avatar"></span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Final de los Articulos   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
       </div>
-      Contenido
-    </div>
-    <div class="col-sm-2">
-      <div class="texto_blog_int">
-        <p>
-          Where does it come from? Contrary to popular belief, Lorem Ipsum
-          is not simply random text. It has roots in a piece of classical
-          Latin literature from 45 BC, making it over 2000 years old.
-          Richard McClintock, a Latin professor at Hampden-Sydney College in
-          Virginia, looked up one of the more obscure Latin words,
-          consectetur, from a Lorem Ipsum passage, and going through the
-          cites of the word in classical literature, discovered the
-          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
-          and Evil) by Cicero, written in 45 BC. This book is a treatise on
-          the theory of ethics, very popular during the Renaissance. The
-          first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
-          from a line in section 1.10.32. The standard chunk of Lorem Ipsum
-          used since the 1500s is reproduced below for those interested.
-          Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
-          by Cicero are also reproduced in their exact original form,
-          accompanied by English versions from the 1914 translation by H.
-          Rackham.
-        </p>
+
+      <!-- %%%%%%%% Barra lateral %%%%%%%% -->
+
+
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
+        <div class="container-fluid">
+          <ul>
+            <li id="lista"></li>
+          </ul>
+          
+        </div>
+        <div class="texto_blog_int">
+          <p>
+            Where does it come from? Contrary to popular belief, Lorem Ipsum
+            is not simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old.
+            Richard McClintock, a Latin professor at Hampden-Sydney College in
+            Virginia, looked up one of the more obscure Latin words,
+            consectetur, from a Lorem Ipsum passage, and going through the
+            cites of the word in classical literature, discovered the
+            undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+            1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
+            and Evil) by Cicero, written in 45 BC. This book is a treatise on
+            the theory of ethics, very popular during the Renaissance. The
+            first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes
+            from a line in section 1.10.32. The standard chunk of Lorem Ipsum
+            used since the 1500s is reproduced below for those interested.
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
+            by Cicero are also reproduced in their exact original form,
+            accompanied by English versions from the 1914 translation by H.
+            Rackham.
+          </p>
+        </div>
       </div>
     </div>
   </div>
+
+<script>
+var buscar = document.getElementsByClassName('tituloarticulo');
+var node = document.getElementById('lista')
+var i;
+for (i = 0; i < buscar.length; i++) {  
+  node.appendChild(buscar[i].innerHTML);
+}
+// document.getElementById('lista').innerHTML = buscar[0];
+</script>
 
 </body>
 

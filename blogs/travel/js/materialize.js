@@ -8685,7 +8685,7 @@ $jscomp.polyfill = function (e, r, p, m) {
               transition: 'transform .2s'
             });
             _this52.$anchor.css({
-              transform: 'translate3d(0,0,0)',
+              transform: 'translate3d(50px,0,0)',
               transition: 'transform .2s cubic-bezier(0.550, 0.055, 0.675, 0.190)'
             });
           }, 20);

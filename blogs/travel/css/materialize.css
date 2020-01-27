@@ -4289,6 +4289,7 @@ nav.nav-extended .nav-wrapper {
 nav.nav-extended .nav-content {
   position: relative;
   line-height: normal;
+  padding: 1%;
 }
 
 nav a {

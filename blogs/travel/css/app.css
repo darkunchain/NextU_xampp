@@ -1,0 +1,28 @@
+img .logo{
+    border-style: none;
+    margin-left: 100px;
+  }
+
+img.z-depth-5.responsive-img.logo{
+    border-style: none;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+h5.slogan{
+    margin-left: 30%;    
+}
+
+nav.nav-extended .nav-content .subtitle {
+    position: relative;
+    line-height: normal;
+    margin-bottom: 5%;
+  }
+
+  .fixed-action-btn {
+    position: relative;
+    right: 0px;
+    bottom: -20px;
+    padding-top: 15px;
+    z-index: 997;
+}

@@ -10,7 +10,7 @@ img.z-depth-5.responsive-img.logo{
 }
 
 h5.slogan{
-    margin-left: 30%;    
+    margin-left: 5%;    
 }
 
 nav.nav-extended .nav-content .subtitle {
@@ -44,3 +44,12 @@ body::after {
   -o-background-size: contain;
   z-index: -1;   
 }
+
+.logo-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+

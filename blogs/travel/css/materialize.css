@@ -3382,7 +3382,7 @@ span.badge.new {
   font-size: 0.8rem;
   color: #fff;
   background-color: #26a69a;
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 span.badge.new:after {

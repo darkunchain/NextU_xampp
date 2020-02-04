@@ -82,9 +82,7 @@ body::after {
 
 .card-circle {
   border-radius: 50%;  
-  width: 70%;
-  left: auto;
-  right: auto;    
+  width: 60%;      
 }
 
 .img-left {
@@ -103,6 +101,13 @@ body::after {
   font-size: 18px;
   padding: 24px;
   border-radius: 0 0 2px 2px;
+}
+
+.blog-badge {
+  font-size: 18px;
+  float: left;
+  border-radius: 20%;
+  padding: 20px;
 }
 
 

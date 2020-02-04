@@ -71,16 +71,14 @@ body::after {
   position: sticky;  
 }
 
-.vert-card {
-  position: relative;
-  display: block;
-  margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 2px;
-  max-width: 29%;  
+
+.cards-container {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
+
+
+
 

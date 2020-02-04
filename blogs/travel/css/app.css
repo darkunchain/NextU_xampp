@@ -80,6 +80,31 @@ body::after {
   flex-wrap: wrap;
 }
 
+.card-circle {
+  border-radius: 50%;  
+  width: 70%;
+  left: auto;
+  right: auto;    
+}
+
+.img-left {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.img-right {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.card .card-blog {
+  font-size: 18px;
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+}
+
 
 
 

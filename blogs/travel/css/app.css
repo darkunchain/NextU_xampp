@@ -28,7 +28,7 @@ nav.nav-extended .nav-content .subtitle {
 }
 
 body::after {
-  background: url('../img/fondo.jpg');
+  background: url('../img/new-zealand.jpg');
   background-repeat: no-repeat;
   background-color: lightpink;
   content: "";
@@ -38,10 +38,10 @@ body::after {
   bottom: 0;
   right: 0;
   left: 0;
-  background-size: contain;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
+  background-size: auto;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
   z-index: -1;   
 }
 
@@ -92,7 +92,7 @@ body::after {
 }
 
 .img-right {
-  float: left;
+  float: right;
   width: 40%;
   padding: 10px;
 }
@@ -101,6 +101,7 @@ body::after {
   font-size: 18px;
   padding: 24px;
   border-radius: 0 0 2px 2px;
+  text-align: justify;
 }
 
 .blog-badge {

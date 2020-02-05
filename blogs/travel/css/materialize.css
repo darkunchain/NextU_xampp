@@ -3368,7 +3368,7 @@ span.badge {
   padding: 0 6px;
   margin-left: 14px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 22px;
   height: 22px;
   color: #757575;
@@ -3379,7 +3379,7 @@ span.badge {
 
 span.badge.new {
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #fff;
   background-color: #26a69a;
   border-radius: 6px;
@@ -4752,6 +4752,7 @@ small {
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px;
+  width: 100%;
 }
 
 .card .card-title {
